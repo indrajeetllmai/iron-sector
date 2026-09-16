@@ -10,3 +10,5 @@ For each requested game upgrade, synchronize the public GitHub main branch, Verc
 - Sites: https://iron-sector-solo-ops.vandana.chatgpt.site
 
 This repository serves static files from its root. Keep the Three.js import as './three.module.js'. No build or install command is needed. Preserve public production access, existing URLs, 5v5 single-player gameplay, opponent wording, arrow-key/Mac controls and touch support. Never publish credentials or introduce billing without an explicit new request.
+
+The game supports solo or exactly two human players through an invite-only WebRTC squad. Preserve host-authoritative shared matches, the one-friend cap, desktop/touch controls, and disconnect fallback. Keep peerjs.min.js, squad.js, and their license synchronized along with the existing game assets.
